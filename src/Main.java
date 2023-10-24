@@ -36,7 +36,7 @@ public class Main {
 
             switch (commandsData) {
                 case ADD:
-                    System.out.println("Введите животное cat/dog/duck");
+                    System.out.println("Введите животное CAT/DOG/DUCK");
                     String type = s.next().trim().toLowerCase();
                     if (!type.equals("cat") && !type.equals("dog") && !type.equals("duck")) {
                         System.out.println("Неверный тип животного!");
