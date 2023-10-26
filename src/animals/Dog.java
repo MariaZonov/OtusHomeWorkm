@@ -11,4 +11,19 @@ public class Dog extends Animal {
         System.out.println("Гав");
 
     }
+
+    @Override
+    public void go() {
+
+    }
+
+    @Override
+    public void eat() {
+
+    }
+
+    @Override
+    public void drink() {
+
+    }
 }
